@@ -1,0 +1,23 @@
+.settings-card { background: white; border: 0.5px solid #ddd8cc; border-radius: 12px; padding: 24px 26px; margin-bottom: 14px; }
+.profile-top { display: flex; align-items: center; gap: 14px; margin-bottom: 20px; }
+.profile-avatar { width: 48px; height: 48px; border-radius: 10px; background: #4a6741; display: flex; align-items: center; justify-content: center; color: white; font-size: 22px; font-weight: 700; flex-shrink: 0; }
+.profile-name { font-size: 18px; font-weight: 700; color: #2c2c2a; }
+.profile-email { font-size: 13px; color: #888780; margin-top: 2px; }
+.profile-meta { display: grid; grid-template-columns: 1fr 1fr 1fr; border-top: 0.5px solid #f0ede6; padding-top: 16px; }
+.meta-item { padding: 0 16px; }
+.meta-item:first-child { padding-left: 0; }
+.meta-label { font-size: 10px; color: #888780; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 4px; }
+.meta-value { font-size: 13px; color: #2c2c2a; word-break: break-all; }
+
+.token-box { background: #f0ede6; border-radius: 8px; padding: 10px 13px; font-size: 11px; color: #5f5e5a; font-family: monospace; word-break: break-all; line-height: 1.6; }
+.token-note { font-size: 11px; color: #888780; margin-top: 7px; }
+
+.about-label { font-size: 10px; color: #888780; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 12px; }
+.about-title { font-size: 18px; font-weight: 600; color: #2c2c2a; margin-bottom: 7px; }
+.about-desc { font-size: 13px; color: #5f5e5a; line-height: 1.7; margin-bottom: 18px; }
+.tech-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; border-top: 0.5px solid #f0ede6; padding-top: 16px; }
+.tech-label { font-size: 10px; color: #888780; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 5px; }
+.tech-value { font-size: 13px; color: #5f5e5a; }
+
+.sign-out-btn { display: flex; align-items: center; gap: 8px; padding: 9px 18px; border: 0.5px solid #ddd8cc; border-radius: 9px; background: white; font-size: 13px; color: #5f5e5a; font-family: inherit; margin-top: 4px; }
+.sign-out-btn:hover { background: #f0ede6; color: #2c2c2a; }

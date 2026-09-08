@@ -1,0 +1,16 @@
+.budget-stats-row { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; margin-bottom: 20px; }
+.stat-card { background: white; border: 0.5px solid #ddd8cc; border-radius: 12px; padding: 20px 22px; }
+.stat-label { font-size: 10px; color: #888780; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 10px; }
+.stat-value { font-size: 24px; font-weight: 500; color: #2c2c2a; letter-spacing: -0.02em; }
+
+.budget-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.budget-card { background: white; border: 0.5px solid #ddd8cc; border-radius: 12px; padding: 20px 22px; }
+.budget-card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 2px; }
+.budget-card-name { font-size: 15px; font-weight: 600; color: #2c2c2a; }
+.del-icon { background: none; border: none; font-size: 14px; color: #888780; padding: 2px; }
+.del-icon:hover { color: #e24b4a; }
+.budget-frac { font-size: 12px; color: #888780; margin-bottom: 12px; }
+.budget-bar-bg { height: 6px; background: #f0ede6; border-radius: 4px; overflow: hidden; margin-bottom: 6px; }
+.budget-bar-fill { height: 100%; border-radius: 4px; transition: width 0.4s; }
+.budget-pct { font-size: 12px; color: #888780; }
+.empty-state { color: #888780; font-size: 13px; grid-column: 1/-1; padding: 32px; text-align: center; background: white; border: 0.5px solid #ddd8cc; border-radius: 12px; }
